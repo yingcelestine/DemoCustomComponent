@@ -1,0 +1,2 @@
+rootProject.name='DemoCustomComponent'
+include ':app'

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorOptionsView">
+        <attr name="titleText" format="string" localization="suggested" />
+        <attr name="valueColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="ImageSelectionView">
+        <attr name="filter_color" format="color" />
+        <attr name="img_src0" format="reference"/>
+        <attr name="img_src1" format="reference"/>
+        <attr name="img_src2" format="reference"/>
+        <attr name="img_src3" format="reference"/>
+        <attr name="img_src4" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="ImageMultiSelectionView">
+        <attr name="image" format="reference"/>
+        <attr name="text" format="string" localization= "suggested"/>
+        <attr name="multi_selection_filter_color" format="color" />
+        <attr name="img_src5" format="reference"/>
+        <attr name="img_src6" format="reference"/>
+        <attr name="img_src7" format="reference"/>
+        <attr name="img_src8" format="reference"/>
+        <attr name="img_src9" format="reference"/>
+    </declare-styleable>
+</resources>

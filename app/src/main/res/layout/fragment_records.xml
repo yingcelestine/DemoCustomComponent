@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+<vu.co.yingcelestine.democustomcomponent.ImageSelectionView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginStart="2dp"
+    custom:filter_color="#ff33aa33"
+    custom:img_src0="@drawable/ic_happy"
+    custom:img_src1="@drawable/ic_good_mood"
+    custom:img_src2="@drawable/ic_cool"
+    custom:img_src3="@drawable/ic_mood_bad"
+    custom:img_src4="@drawable/ic_sad"
+    />
+</LinearLayout>
